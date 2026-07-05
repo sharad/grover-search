@@ -152,10 +152,21 @@ Initially, every basis state possesses equal probability amplitude. After succes
 
 The probability of measuring the marked state rises rapidly and reaches its maximum after the optimal number of Grover iterations. Beyond this point, the probability decreases because Grover's algorithm performs a rotation in the two-dimensional search subspace, producing oscillatory behaviour.
 
-The imaginary components of the statevector remain approximately zero throughout the computation, confirming that the implementation evolves primarily within the real amplitude space.
 
 The experimental observations closely match the theoretical predictions of
 Grover's Search Algorithm.
+
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.9\textwidth]{images/barchart.png}
+  \caption{Measurement outcome.}
+  \label{fig:probability}
+\end{figure}
+
+
+The imaginary components of the statevector remain approximately zero throughout the computation, confirming that the implementation evolves primarily within the real amplitude space.
+
 
 
 \begin{figure}[ht]
@@ -164,6 +175,8 @@ Grover's Search Algorithm.
   \caption{Probability of measuring the marked state and the corresponding real amplitudes over multiple Grover iterations.}
   \label{fig:probability}
 \end{figure}
+
+
 
 \section{Learning Outcomes}
 
